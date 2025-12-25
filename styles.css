@@ -281,7 +281,8 @@ main {
   display: flex;
   overflow: hidden;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
 }
 
 .fundo-solutions {
@@ -338,6 +339,10 @@ main {
   font-size: 1.2rem;
 }
 
+.imgs-bottom p {
+  margin-bottom: 3rem;
+}
+
 .imgs-bottom {
   display: flex;
   justify-content: center;
@@ -367,7 +372,7 @@ main {
 
 .title-proposta{
   font-weight: 100;
-  margin: 3rem 4.5rem 1rem 4.5rem;
+  margin: 5rem 4.5rem 1rem 4.5rem;
 }
 
 .description {
@@ -384,7 +389,7 @@ main {
 }
 
 .h1-proposta  {
-  margin: 0.5rem 4.5rem;
+  margin: 1rem 4.5rem 1.5rem;
   border-radius: 7px;
   color: #000;
   font-size: 3rem;
@@ -396,7 +401,7 @@ main {
   font-weight: 700;
 }
 
-.left-texts p {
+.subtitle {
   margin: 2rem 4.5rem;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -405,7 +410,28 @@ main {
 }
 
 .ul-proposta {
-  margin: 3rem 4.5rem;
+  margin: 4rem 5.5rem;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
+.email-proposta {
+  font-size: 1rem;
+  margin: 0 4.5rem;
+}
+
+.proposta1 {
+  height: 335px;
+  position: absolute;
+  top: 35%;
+  right: 12.5%;
+  transform: translateY(-50%) rotate(-10deg);
+}
+
+.proposta2 {
+  height: 235px;
+  position: absolute;
+  top: 60%;
+  right: 15%;
+  transform: translateY(-50%) rotate(-10deg);
+}
