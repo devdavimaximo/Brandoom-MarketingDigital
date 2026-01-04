@@ -565,21 +565,28 @@ main {
   background-color: #7a644e;
 }
 
-.left-contato {
-  width: 70%;
+.left-contato,
+.middle-contato,
+.right-contato {
+  flex: 1;
   display: flex;
 }
 
-.left-contato h2 {
-  margin: 1.3rem 4.5rem -0.1rem 4.5rem;
+.middle-contato h2 {
+  margin: 0 0 -0.3rem 0;
   color: #cb9965;
   text-transform: uppercase;
 }
 
-.left-contato p {
-  margin: 0 4.5rem;
+.middle-contato p {
   font-size: 1.5rem;
   letter-spacing: 2px;
+}
+
+.email-contato,
+.midias-contato,
+.telefone-contato {
+  margin-bottom: 1rem;
 }
 
 .duvidas {
@@ -589,10 +596,11 @@ main {
   white-space: nowrap;
 }
 
-.info {
+.middle-contato {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   z-index: 100;
 }
 
@@ -621,10 +629,12 @@ main {
   text-transform: uppercase;
 }
 
+.right-contato {
+  justify-content: center;
+  align-items: center;
+}
+
 .right-contato img {
   height: 300px;
-  position: absolute;
-  top: 52.5%;
-  transform: translateY(-50%);
-  right: 15%;
+  z-index: 1000;
 }
