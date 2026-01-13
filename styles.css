@@ -743,7 +743,8 @@ main {
 /*---RESPONSIVIDADE---*/
 
 @media (max-width: 480px) {
-  
+  /*main*/
+
   .left-images {
     display: none;
   }
@@ -786,6 +787,99 @@ main {
     position: absolute;
     bottom: 10%;
     right: 15%;
-    font-size: 0.9rem
+    font-size: 0.9rem;
+  }
+
+  /* sobre */
+
+  #sobre {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3rem 1.5rem 4rem;
+    min-height: auto;
+  }
+
+  .fundo-sobre {
+    right: -90%;
+    opacity: 0.5;
+  }
+
+  .texts {
+    max-width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .title-sobre {
+    margin: 0 0 0.8rem 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .title-marketing {
+    margin: 0 0 1.5rem 0;
+    font-size: 2.3rem;
+    line-height: 1.1;
+    max-width: 100%;
+  }
+
+  .marketing,
+  .result {
+    display: inline-block;
+    background-color: #cb9965;
+    color: #000;
+    padding: 0 1rem;
+  }
+
+  .marketing {
+    padding-top: 0.7rem;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .result {
+    padding-bottom: 0.7rem;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .top-texts h2 {
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  .bottom-texts {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .bottom-texts p {
+    margin-bottom: 1.2rem;
+  }
+
+  .right-images {
+    width: 100%;
+    min-height: auto;
+    position: relative;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sobre-img {
+    position: relative;
+    height: 180px;
+    left: -15%;
+    bottom: -25px;
+    transform: rotate(-6deg);
+  }
+
+  .sobre-img2 {
+    position: absolute;
+    height: 240px;
+    left: 42.5%;
+    transform: rotate(6deg);
   }
 }
