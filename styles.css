@@ -1079,5 +1079,88 @@ main {
 
 /* footer */
 
+#contato {
+  flex-direction: column;
+  padding: 3rem 1.5rem 5rem;
+  min-height: auto;
+  align-items: flex-start;
+  background-color: #7a644e;
+  overflow: hidden;
+}
+
+.fundo-contato {
+  display: none;
+}
+
+.fundo-contato-mob {
+  position: absolute;
+  max-width: 480px;
+  z-index: 150;
+}
+
+.left-contato {
+  width: 100%;
+  justify-content: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.duvidas {
+  align-items: flex-start;
+  white-space: normal;
+}
+
+.duvidas .title-cronograma {
+  margin: 0 0 0.8rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.h1-contato {
+  margin: 0;
+  font-size: 2.8rem;
+  line-height: 1.05;
+}
+
+.middle-contato {
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.info {
+  width: 100%;
+}
+
+.middle-contato h2 {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.middle-contato p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+}
+
+.right-contato {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.right-contato img {
+  height: 140px;
+}
+
+.footer-copy {
+  position: relative;
+  left: auto;
+  bottom: auto;
+  transform: none;
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+}
 
 }
