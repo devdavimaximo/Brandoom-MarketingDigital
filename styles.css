@@ -476,7 +476,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 70vh;
+  min-height: 50vh;
 }
 
 .title-proposta {
@@ -926,7 +926,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 0 1.5rem 4rem;
+    padding: 0 1.5rem 1rem;
     min-height: auto;
   }
 
@@ -979,9 +979,10 @@ main {
 
   .fundo-proposta {
     position: relative;
-    top: auto;
+    margin-top: 5rem;
+    top: 60%;
     transform: none;
-    height: 350px;
+    height: 400px;
     opacity: 0.4;
   }
 
@@ -993,7 +994,7 @@ main {
   .proposta1 {
     height: 200px;
     z-index: 1;
-    top: 5%;
+    top: 19%;
     left: 50%;
     transform: translateX(-50%) rotate(-10deg);
   }
@@ -1002,7 +1003,7 @@ main {
     height: 160px;
     z-index: 2;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translateX(-50%) rotate(-10deg);
   }
 
@@ -1012,7 +1013,7 @@ main {
     line-height: 1.4;
   }
 
-  /* proposta */
+  /* cronograma */
 
   #cronograma {
     padding: 3rem 1.5rem 4rem;
