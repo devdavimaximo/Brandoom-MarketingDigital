@@ -1109,9 +1109,10 @@ main {
   }
 
   .fundo-contato-mob {
+    display: block;
     position: absolute;
     max-width: 480px;
-    z-index: 10;
+    height: 100vh;
   }
 
   .left-contato {
