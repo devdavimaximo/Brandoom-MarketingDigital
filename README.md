@@ -10,7 +10,7 @@ O projeto foi pensado para unir design moderno, animações suaves e boa experi�
 💡 Origem do Nome
 O nome Brandoom surgiu da junção de duas palavras do inglês:
 
-Brand → Marca
+Brand → Marca  
 Boom → Crescimento, explosão de resultados
 
 A ideia por trás do nome é transmitir o conceito de fazer marcas crescerem, ganharem força e destaque no mercado — um verdadeiro boom de visibilidade, posicionamento e resultados.
@@ -18,30 +18,22 @@ A ideia por trás do nome é transmitir o conceito de fazer marcas crescerem, ga
 🖥️ Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando tecnologias web fundamentais, com foco em organização, performance e responsividade:
 
-HTML5 — Estrutura semântica do site
-
-CSS3 — Estilização completa dividida por responsabilidades:
-
-base.css — Reset, estilos globais e tipografia
-
-layout.css — Estrutura e layout das seções
-
-animations.css — Animações e efeitos visuais
-
-responsive.css — Responsividade para tablets e dispositivos móveis
-
-JavaScript (Vanilla JS) — Interações e animações dinâmicas
-
-Google Fonts — Tipografia personalizada
-
+HTML5 — Estrutura semântica do site  
+CSS3 — Estilização completa dividida por responsabilidades:  
+base.css — Reset, estilos globais e tipografia  
+layout.css — Estrutura e layout das seções  
+animations.css — Animações e efeitos visuais  
+responsive.css — Responsividade para tablets e dispositivos móveis  
+JavaScript (Vanilla JS) — Interações e animações dinâmicas  
+Google Fonts — Tipografia personalizada  
 Vercel — Deploy e hospedagem
 
 🎯 Objetivo do Projeto
 
-Este projeto tem como objetivo:
-Servir como site institucional de uma agência de marketing
-Demonstrar habilidades em Front-End
-Compor portfólio profissional
+Este projeto tem como objetivo:  
+Servir como site institucional de uma agência de marketing  
+Demonstrar habilidades em Front-End  
+Compor portfólio profissional  
 Aplicar conceitos reais de layout, UX e responsividade
 
 👨‍💻 Desenvolvedor
