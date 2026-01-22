@@ -1,6 +1,11 @@
 @media (min-width: 100px) and (max-width: 1024px) {
   /*main*/
 
+  main {
+    margin-top: 64px;
+    height: calc(100vh - 64px);
+  }
+
   .left-images {
     display: none;
   }
@@ -553,15 +558,12 @@
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
-
   .solutions-grid {
     gap: 2rem 0;
   }
-  
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
   nav {
     margin: 0;
     padding: 15px 0;
@@ -590,9 +592,8 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1250px) {
-
-  .bottom-texts p{
-    font-size: 1.2rem
+  .bottom-texts p {
+    font-size: 1.2rem;
   }
 
   .sobre-img {
@@ -624,11 +625,9 @@
     max-width: 100%;
     font-size: 1.1rem;
   }
-
 }
 
 @media (min-width: 1025px) and (max-width: 1351px) {
-
   .title-marketing {
     font-size: 3rem;
   }
@@ -638,7 +637,7 @@
   }
 
   .email-proposta {
-    font-size: 0.8rem
+    font-size: 0.8rem;
   }
 
   .fundo-proposta {
@@ -678,7 +677,7 @@
   }
 
   .title-cronograma {
-    font-size: 2rem
+    font-size: 2rem;
   }
 
   .h1-contato {
@@ -693,5 +692,4 @@
   .right-contato img {
     height: 230px;
   }
-
 }
