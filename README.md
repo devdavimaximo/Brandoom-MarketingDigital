@@ -45,7 +45,7 @@ Aplicar conceitos reais de layout, UX e responsividade
 👨‍💻 Desenvolvedor
 
 Davi Maximo
-💼 Desenvolvedor Front-End
+💼 Desenvolvedor Fullstack 
 🔗 GitHub: https://github.com/devdavimaximo
 
 📄 Licença
